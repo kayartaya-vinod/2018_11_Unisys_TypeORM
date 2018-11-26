@@ -1,0 +1,14 @@
+{
+   "type": "mssql",
+   "host": "localhost",
+   "instanceName": "KHUSHI\\SQLEXPRESS",
+   "port": 1223,
+   "username": "sa",
+   "password": "Welcome#123",
+   "database": "unisys_typeorm_db1",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ]
+}

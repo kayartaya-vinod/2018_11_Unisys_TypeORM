@@ -1,9 +1,9 @@
 import { createConnection } from "typeorm";
-import { Employee } from "../entity/Employee";
+import { Product } from "../entity/northwind/Product";
 
 (async ()=>{
     const conn = await createConnection();
-    const e1 = await conn.manager.findOne(Employee, 1);
+    const p1 = await conn.manager.findOne(Product, 1);
+    console.log(p1);
     await conn.close();
-    console.log(e1);
 })();

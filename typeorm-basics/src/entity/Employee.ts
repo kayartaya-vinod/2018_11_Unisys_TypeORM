@@ -14,7 +14,7 @@ export class Employee {
     @Column({ name: 'hire_date', type: 'date' })
     hireDate: any;
 
-    @Column({ type: 'double' })
+    @Column({ type: 'decimal' })
     salary: number;
 
     @ManyToOne(type => Department, { eager: true })

@@ -1,0 +1,10 @@
+{
+   "type": "sqlite",
+   "database": "mydb.sqlite3",
+   "synchronize": true,
+   "logging": true,
+   "logger": "file",
+   "entities": [
+      "src/entity/**/*.ts"
+   ]
+}
