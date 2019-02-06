@@ -12,7 +12,7 @@ Links to reference material:
 
 <div>
 <a href="http://bit.ly/2D9pxjW" target="_blank">
-<img src="./banner1.jpeg">
+<img src="https://github.com/kayartaya-vinod/2018_11_PHILIPS_ANGULAR/raw/master/banner1.jpeg">
 </a>
 </div>
 
